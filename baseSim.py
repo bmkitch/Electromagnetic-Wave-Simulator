@@ -72,7 +72,6 @@ class Sim2D:
         self.fixBoundaries(time)
 
     #running the simulation (implementation of maxwell's equations)
-    #it is ready hahahahahHAHAHAHAH
     def iterate(self):
         #calculating rate of change for magnetic field
         bxChange = -self.electricZY #the differential equations (with partials to Z equaling 0)
